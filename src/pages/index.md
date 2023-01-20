@@ -9,10 +9,14 @@ mainpitch:
   description: I have been a professional photographer for many years, and have a
     wealth of knowledge and experience in all areas of photography, from
     composition and lighting to editing and post-processing.
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
+description: Our photography tutoring services offer personalized instruction
+  for photographers of all skill levels. Whether you're a beginner looking to
+  learn the basics or a professional looking to take your craft to the next
+  level, our experienced tutors will work with you to achieve your goals. We
+  cover a wide range of topics including composition, lighting, editing, and
+  more. Our lessons can be tailored to fit your individual needs and schedule,
+  and can be held in-person or online. With our help, you'll be able to take
+  stunning photographs and take your passion for photography to new heights.
 intro:
   blurbs:
     - image: /img/13-1-.jpg
