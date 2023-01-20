@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: "Snap Tutoring: Expert Photography Instruction for All Levels"
+title: "Tutoring: Expert Photography Instruction for All Levels"
 image: /img/11-2-.jpg
 heading: "Capturing Learning Moments: Tutoring Photography Services"
 subheading: Online Or Onsite Tutoring
