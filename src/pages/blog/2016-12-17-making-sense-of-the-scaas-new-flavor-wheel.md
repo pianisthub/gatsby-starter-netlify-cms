@@ -6,7 +6,7 @@ description: "My journey to the Amarnath Temple was a once-in-a-lifetime
   experience. The trek through the Himalayas was challenging but rewarding, with
   stunning views of snow-capped peaks and lush valleys. "
 featuredpost: false
-featuredimage: /img/dsc02935-hdr.png
+featuredimage: /img/dsc02657-hdr.png
 tags:
   - travel
   - hiking
