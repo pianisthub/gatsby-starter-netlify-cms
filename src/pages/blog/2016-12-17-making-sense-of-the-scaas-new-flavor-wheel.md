@@ -11,7 +11,7 @@ tags:
   - travel
   - hiking
 ---
-![flavor wheel](/img/dsc02935-hdr.png)
+![flavor wheel](/img/30-1-.jpg)
 
 <!--StartFragment-->
 
