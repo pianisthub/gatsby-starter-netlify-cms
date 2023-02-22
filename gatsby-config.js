@@ -1,9 +1,16 @@
+
+require("dotenv").config({
+  path: `.env.${process.env.development}`,
+})
+
 module.exports = {
+  
   siteMetadata: {
     title: "Sudhirlive",
     description:
       "",
   },
+  
   plugins: [
     "gatsby-plugin-react-helmet",
     {
@@ -83,3 +90,4 @@ module.exports = {
     "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 };
+
