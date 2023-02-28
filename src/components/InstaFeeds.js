@@ -3,7 +3,7 @@ import axios from 'axios'
 
 import Feed from './Feed'
 
-import './instaFeeds.css'
+import './staFeeds.css'
 
 const InstaFeeds = ({token, ...props}) => {
     const [feeds, setFeedsData] = useState([])
