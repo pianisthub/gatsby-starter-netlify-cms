@@ -27,5 +27,5 @@ console.log(process.env.GATSBY_API_URL)
     </>
   );
 }
-
+/* export*/
 export default Ap;
