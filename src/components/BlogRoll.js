@@ -59,8 +59,11 @@ class BlogRollTemplate extends React.Component {
               </article>
             </div>
           ))}
+
+
       </div>
     )
+    
   }
 }
 

@@ -1,32 +1,31 @@
 ---
-heading: Great tutoring services
+heading: New Releases
 path: /products
 templateKey: product-page
-title: What We Offer
+title: 
 image: /img/b5.jpg
-description: High quality tutoring  for all levels
+description: ""
 intro:
   blurbs:
     - image: /img/2-7-.jpg
       text: |
-        Quality shot
+        
     - image: /img/2-7-.jpg
       text: |+
-        Quality shot
+        
 
     - image: /img/2-7-.jpg
       text: |
-        Quality shot
+        
     - image: /img/2-7-.jpg
       text: |+
-        Quality shot
-
-  heading: What we offer
-  description: "High quality tutoring "
+        
+  heading: 
+  description: " "
 main:
-  heading: Quality services
+  heading: 
   description: |+
-    Quality  services
+   
 
   image1:
     alt: A red ant
@@ -38,14 +37,12 @@ main:
     alt: A red ant
     image: /img/12-4-.jpg
 testimonials:
-  - author: Ravi
-    quote: With the guidance and expertise of Sudhir, I was able to unlock my full
-      potential as a photographer and turn my passion into a profession
+  - author: ""
+    quote: ""
 full_image: /img/3-4-.jpg
 pricing:
-  heading: Monthly subscriptions
-  description: Choose one of our monthly subscription plans to tutoring services
-    each month. Contact us about more details and payment info.
+  heading: ""
+  description: ""
   plans:
     - description: One student per head
       items:

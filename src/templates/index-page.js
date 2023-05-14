@@ -29,40 +29,70 @@ export const IndexPageTemplate = ({
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
-                  <div className="content">
-                    <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
-                    </div>
-                    <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
-                    </div>
-                  </div>
                   <div className="columns">
-                    <div className="column is-12">
+                    <div className="column is-6">
                       <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
+                        Blog
                       </h3>
-                      <p>{description}</p>
+                      <div className="blog-preview" style={{ height: "170%", width: "170%" }}>
+      <BlogRoll />
+    </div>
+                      
                     </div>
-                  </div>
-                  <Features gridItems={intro.blurbs} />
-                  <div className="columns">
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
-                    </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                      </Link>
-                    </div>
+
+                    
+                    <div className="column is-6">
+  <div className="columns is-multiline">
+    {/* Resume */}
+    <div className="column is-12">
+      <article className="resume-item tile is-child box">
+        <header>
+          <h3 className="title has-text-primary is-size-4">Resume</h3>
+        </header>
+        <p>{/* Add code or content related to your resume */}</p>
+        <p>
+          <Link className="button" to="/CvPdf">
+            View Resume →
+          </Link>
+        </p>
+      </article>
+    </div>
+
+    {/* Portfolio */}
+    <div className="column is-12">
+      <article className="portfolio-item tile is-child box">
+        <header>
+          <h3 className="title has-text-primary is-size-4">Portfolio</h3>
+        </header>
+        <div className="portfolio-preview">
+          {/* Add code to display your portfolio images */}
+        </div>
+        <p>
+          <Link className="button" to="/portfolio">
+            View Portfolio →
+          </Link>
+        </p>
+      </article>
+    </div>
+
+    {/* Prints */}
+    <div className="column is-12">
+      <article className="prints-item tile is-child box">
+        <header>
+          <h3 className="title has-text-primary is-size-4">Prints</h3>
+        </header>
+        <div className="prints-preview">
+          {/* Add code to display your prints images */}
+        </div>
+        <p>
+          <Link className="button" to="/products">
+            View Prints →
+          </Link>
+        </p>
+      </article>
+    </div>
+  </div>
+</div>
                   </div>
                 </div>
               </div>
@@ -73,6 +103,7 @@ export const IndexPageTemplate = ({
     </div>
   );
 };
+
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
