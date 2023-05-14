@@ -1,5 +1,5 @@
 import React from "react";
-import cvPdf from "../../static/cv.pdf";
+import cvPdf from "../../static/img/cv.pdf"; 
 
 import "./Cvpdf.css"; // Import your custom CSS file
 import { Link } from "gatsby";
