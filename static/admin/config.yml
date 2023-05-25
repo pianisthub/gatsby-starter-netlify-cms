@@ -13,6 +13,7 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
@@ -32,6 +33,19 @@ collections:
       - { label: "Featured Image", name: "featuredimage", widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
+
+ 
+  
+  - name: "showcase"
+    label: "Showcase"
+    folder: "static/img/showcase"
+    create: true
+    slug: "{{slug}}"
+    media_folder: "static/img/showcase"
+    public_folder: "/img/showcase"
+    fields:
+      - { label: "Image", name: "image", widget: "image" }
+
 
   - name: "pages"
     label: "Pages"
@@ -244,3 +258,4 @@ collections:
                   },
                 ],
             }
+

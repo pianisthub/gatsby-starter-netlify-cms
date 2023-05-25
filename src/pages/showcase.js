@@ -25,6 +25,8 @@ const Showcase = () => {
   useEffect(() => {
     const showcaseContainer = document.querySelector('.showcase-container');
 
+    
+
     const handleWheelScroll = (event) => {
       event.preventDefault();
       const scrollStep = Math.max(-1, Math.min(1, event.deltaY)); // Normalize the scroll step
@@ -57,8 +59,49 @@ const Showcase = () => {
     return () => {
       showcaseContainer.removeEventListener('wheel', handleWheelScroll);
       window.removeEventListener('keydown', handleKeyScroll);
+
+
+      
     };
   }, []);
+
+
+  useEffect(() => {
+    const showcaseContainer = document.querySelector('.showcase-container');
+
+    let isDragging = false;
+    let startX = 0;
+    let scrollLeft = 0;
+
+    const handleMouseDown = (event) => {
+      isDragging = true;
+      startX = event.pageX - showcaseContainer.offsetLeft;
+      scrollLeft = showcaseContainer.scrollLeft;
+    };
+
+    const handleMouseMove = (event) => {
+      if (!isDragging) return;
+      event.preventDefault();
+      const x = event.pageX - showcaseContainer.offsetLeft;
+      const walk = (x - startX) * 3; // Adjust the scroll speed by changing the factor
+
+      showcaseContainer.scrollLeft = scrollLeft - walk;
+    };
+
+    const handleMouseUp = () => {
+      isDragging = false;
+    };
+
+    showcaseContainer.addEventListener('mousedown', handleMouseDown);
+    showcaseContainer.addEventListener('mousemove', handleMouseMove);
+    showcaseContainer.addEventListener('mouseup', handleMouseUp);
+
+    return () => {
+      showcaseContainer.removeEventListener('mousedown', handleMouseDown);
+      showcaseContainer.removeEventListener('mousemove', handleMouseMove);
+      showcaseContainer.removeEventListener('mouseup', handleMouseUp);
+    };
+  }, []); 
 
   return (
     <div className="showcase-container">
