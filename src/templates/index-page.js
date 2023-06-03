@@ -68,7 +68,7 @@ export const IndexPageTemplate = ({
           {/* Add code to display your portfolio images */}
         </div>
         <p>
-          <Link className="button" to="/portfolio">
+          <Link className="button" to="/showcase">
             View Portfolio →
           </Link>
         </p>

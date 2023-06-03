@@ -35,17 +35,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list" }
 
  
-  
-  - name: "showcase"
-    label: "Showcase"
-    folder: "static/img/showcase"
-    create: true
-    slug: "{{slug}}"
-    media_folder: "static/img/showcase"
-    public_folder: "/img/showcase"
-    fields:
-      - { label: "Image", name: "image", widget: "image" }
-
+ 
 
   - name: "pages"
     label: "Pages"
