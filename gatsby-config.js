@@ -35,11 +35,10 @@ module.exports = {
       options: {
         headers: {
           "/*": [
-            "X-XSS-Protection: 1; mode=block",
-            "X-Content-Type-Options: nosniff",
-            "Referrer-Policy: same-origin",
-            "X-Frame-Options: SAMEORIGIN",
-            `Content-Security-Policy: frame-ancestors 'self' https://sudhirlive.netlify.app`,
+            
+           
+            "X-Frame-Options: ALLOW-FROM https://sudhirlive.netlify.app/static/cv-fb8912bcb25e814e8b7fa60d09640eb2.pdf",
+            ,
           ],
         },
       },
