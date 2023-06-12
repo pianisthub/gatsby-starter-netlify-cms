@@ -38,7 +38,7 @@ module.exports = {
             
            
             "X-Frame-Options: ALLOW-FROM https://sudhirlive.netlify.app/static/cv-fb8912bcb25e814e8b7fa60d09640eb2.pdf",
-            ,
+            
           ],
         },
       },
