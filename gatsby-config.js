@@ -38,6 +38,7 @@ module.exports = {
             "X-XSS-Protection: 1; mode=block",
             "X-Content-Type-Options: nosniff",
             "Referrer-Policy: same-origin",
+            "X-Frame-Options: SAMEORIGIN",
             `Content-Security-Policy: frame-ancestors 'self' https://sudhirlive.netlify.app`,
           ],
         },
