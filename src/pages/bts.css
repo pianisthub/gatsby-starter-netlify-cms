@@ -1,0 +1,87 @@
+
+  .bts-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    padding-right: 50px; /* Adjusted to accommodate the right gradient /
+    padding-left: 50px; / Adjusted to accommodate the left gradient */
+    position: relative;
+    scrollbar-width: none; /* Hide the scrollbar */
+    
+    height: 100vh;
+    }
+  
+  
+   
+  
+      
+   
+  
+  .bts-container {
+    width: 100%;
+     /* Adjust the value based on the height of the HTML class taking up space */
+    background-color: black;
+  }
+  
+  
+    .bts-container::-webkit-scrollbar {
+      width: 0.1px;
+      background-color: transparent;
+    }
+    
+    /* Hide scrollbar track */
+    .bts::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+    
+    .bts-scroll {
+    display: flex;
+    
+    }
+  
+    
+    
+    .bts-image {
+    flex: 0 0 auto;
+    width: 500px;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    }
+  
+    
+    .bts-image:last-child {
+    margin-right: 0;
+    }
+    
+    .bts-image img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+    user-select: none;
+    pointer-events: none;
+    }
+    
+    @media (min-width: 768px) {
+    .bts-image {
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+    }
+    
+  
+    
+  
+    .bts-image:hover {
+    transform: scale(1.1);
+    }
+    }

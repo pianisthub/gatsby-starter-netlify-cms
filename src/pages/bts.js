@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import { Link } from 'gatsby';
-import './showcase.css';
+import './bts.css';
 
-const Showcase = () => {
+const Bts= () => {
   const data = useStaticQuery(graphql`
     query {
-      allFile(filter: { relativeDirectory: { eq: "showcase" } }) {
+      allFile(filter: { relativeDirectory: { eq: "bts" } }) {
         edges {
           node {
             id
@@ -27,7 +27,7 @@ const Showcase = () => {
   
 
   useEffect(() => {
-    const showcaseContainer = document.querySelector('.showcase-container');
+    const showcaseContainer = document.querySelector('.bts-container');
 
     
 
@@ -71,7 +71,7 @@ const Showcase = () => {
 
 
   useEffect(() => {
-    const showcaseContainer = document.querySelector('.showcase-container');
+    const showcaseContainer = document.querySelector('.bts-container');
 
     let isDragging = false;
     let startX = 0;
@@ -112,10 +112,10 @@ const Showcase = () => {
 
   return (
    
-    <div className="showcase-container">
-      <div className="showcase-scroll">
+    <div className="bts-container">
+      <div className="bts-scroll">
         {data.allFile.edges.map(({ node }) => (
-           <div key={node.id} className="showcase-image">
+           <div key={node.id} className="bts-image">
            <Img fluid={node.childImageSharp.fluid} alt={node.name} />
          </div>
         ))}
@@ -124,4 +124,4 @@ const Showcase = () => {
   );
 };
 
-export default Showcase;
+export default Bts;

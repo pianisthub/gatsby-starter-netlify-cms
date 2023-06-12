@@ -22,6 +22,9 @@
 
  
 
+    
+ 
+
 .showcase-container {
   width: 100%;
    /* Adjust the value based on the height of the HTML class taking up space */
@@ -43,6 +46,8 @@
   display: flex;
   
   }
+
+  
   
   .showcase-image {
   flex: 0 0 auto;
@@ -52,6 +57,7 @@
   margin-top: 90px;
   margin-bottom: 20px;
   }
+
   
   .showcase-image:last-child {
   margin-right: 0;

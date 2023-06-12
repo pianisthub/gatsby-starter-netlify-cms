@@ -4,10 +4,10 @@ import Img from 'gatsby-image';
 import { Link } from 'gatsby';
 import './showcase.css';
 
-const Showcase = () => {
+const Wildlife = () => {
   const data = useStaticQuery(graphql`
     query {
-      allFile(filter: { relativeDirectory: { eq: "showcase" } }) {
+      allFile(filter: { relativeDirectory: { eq: "wildlife" } }) {
         edges {
           node {
             id
@@ -124,4 +124,4 @@ const Showcase = () => {
   );
 };
 
-export default Showcase;
+export default Wildlife;

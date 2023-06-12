@@ -29,6 +29,18 @@ module.exports = {
         name: "uploads",
       },
     },
+
+    {
+      resolve: "gatsby-plugin-netlify",
+      options: {
+        headers: {
+          "/static/img/cv.pdf": [
+            "X-Frame-Options: SAMEORIGIN",
+          ],
+        },
+      },
+    },
+
     {
       resolve: "gatsby-source-filesystem",
       options: {
