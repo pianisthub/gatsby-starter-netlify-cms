@@ -72,7 +72,7 @@ const Navbar = class extends React.Component {
                 Prints
               </Link>
 
-              <Link className="navbar-item" to="/CvPdf">
+              <Link className="navbar-item" to="/resume">
                 Resume
               </Link>
               

@@ -51,7 +51,7 @@ export const IndexPageTemplate = ({
         </header>
         <p>{/* Add code or content related to your resume */}</p>
         <p>
-          <Link className="button" to="/CvPdf">
+          <Link className="button" to="/resume">
             View Resume →
           </Link>
         </p>
@@ -68,7 +68,7 @@ export const IndexPageTemplate = ({
           {/* Add code to display your portfolio images */}
         </div>
         <p>
-          <Link className="button" to="/showcase">
+          <Link className="button" to="/work">
             View Portfolio →
           </Link>
         </p>
