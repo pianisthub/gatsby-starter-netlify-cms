@@ -10,14 +10,14 @@ intro:
     - image: /img/2-7-.jpg
       text: |
         
-    - image: /img/2-7-.jpg
+    - image: /img/30-1-.jpg
       text: |+
         
 
-    - image: /img/2-7-.jpg
+    - image: /img/12.jpg
       text: |
         
-    - image: /img/2-7-.jpg
+    - image: /img/28.jpg
       text: |+
         
   heading: 
@@ -32,10 +32,10 @@ main:
     image: /img/12-4-.jpg
   image2:
     alt: A red ant
-    image: /img/12-4-.jpg
+    image: /img/djg.jpg
   image3:
     alt: A red ant
-    image: /img/12-4-.jpg
+    image: /img/13-1-.jpg
 testimonials:
   - author: ""
     quote: ""
