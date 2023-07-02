@@ -1,7 +1,7 @@
 
 
 .bg-img {
-    background-image: url('/img/wildlife/b1.jpg'); /* Update the path to your transparent image */
+   /* background-image: url('/img/wildlife/b1.jpg');  Update the path to your transparent image */
     background-size: cover;
     filter: blur(8px); /* Apply the blur effect */
     -webkit-filter: blur(8px); /* For better browser compatibility */
@@ -22,7 +22,7 @@
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 600px;
+    width: 720px;
     margin: 0 auto; /* Center horizontally */
     position: absolute; /* Position relative to the parent */
     top: 50%; /* Position at the vertical center */

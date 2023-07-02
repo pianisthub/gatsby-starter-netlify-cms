@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: ""
-image: /img/11-2-.jpg
+image: /img/11-212-.jpg
 heading: ""
 subheading: ""
 mainpitch:
