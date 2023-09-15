@@ -92,7 +92,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
       fallback: {
         fs: false,
         path: require.resolve('path-browserify'),
-        crypto: require.resolve('crypto-browserify'),
+        crypto: false ,
         os: require.resolve("os-browserify/browser")
       },
     },
