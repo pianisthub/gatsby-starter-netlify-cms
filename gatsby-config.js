@@ -3,7 +3,12 @@ require("dotenv").config({
   path: `.env.${process.env.development}`,
 })
 
+
+
 module.exports = {
+
+
+ 
   
   siteMetadata: {
     title: "Sudhirlive",
@@ -29,6 +34,9 @@ module.exports = {
         name: "uploads",
       },
     },
+
+
+    
 
     {
       resolve: "gatsby-plugin-netlify",
